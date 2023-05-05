@@ -36,7 +36,7 @@ async function getListFromMaster(name) {
   return new Promise((resolve, reject) =>
     https
       .get(
-        `https://raw.githubusercontent.com/leetswap/tokenlist/master/src/${name}`,
+        `https://raw.githubusercontent.com/pepeswap/tokenlist/master/src/${name}`,
         (res) => {
           let body = "";
 
